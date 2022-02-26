@@ -5,7 +5,7 @@
 
 } */
 
-function loadData() {
+/* function loadData() {
     fetch('https://jsonplaceholder.typicode.com/todos/1')
     .then(response =>response.json())
     .then(data => console.log(data))
@@ -31,4 +31,12 @@ function displayUsers (data){
       li.innerText = `name: ${user.name} , email: ${user.email}`
       ul.appendChild(li);
     }
-}
+} */
+
+
+const searchFood = () => {
+  const searchFild = document.getElementById('search-field');
+  const searchText = searchFild.value
+ 
+  console.log(searchText)
+  searchFild.value = ' ';}
